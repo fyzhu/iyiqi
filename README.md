@@ -1,19 +1,8 @@
-# 开课吧浏览器扩展
-
-## 1.是否完成课程打卡任务
-### 已完成
-![image](https://user-images.githubusercontent.com/5175751/137658341-6902b0ec-6490-4f39-931e-3cdaa9653c73.png)
-### 进行中
-![image](https://user-images.githubusercontent.com/5175751/137658690-93acdf21-e8df-4637-a4e4-883715944b5e.png)
-
-## 2.播放时长/剩余时长
-![image](https://user-images.githubusercontent.com/5175751/137658422-2b8809ce-c9ff-4861-adc9-52c71d92b90c.png)
+# 一起看TV浏览器扩展
 
 ## todo
-- [ ] 点击课程链接新开标签打开页面（__blank)
-- [ ] 云端保存播放时长
-- [ ] 笔记
-- [ ] 收藏
-- [ ] 问答
-- [ ] 讨论
-- [ ] 弹幕
+- [ ] 分享 VIP 视频（一起看视频）
+- [ ] 保存直播到七牛云
+- [ ] 保存任何 JSON 数据到 mongoDB 的接口
+- [ ] 微信公众号通知接口
+- [ ] 电视评论员，给每集做评论，背景等
