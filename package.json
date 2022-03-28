@@ -11,7 +11,7 @@
 		"express": "^4.17.3",
 		"log4js": "^6.4.4",
 		"serve-index": "^1.9.1",
-		"socket.io": "2"
+		"socket.io": "^2.4.1"
 	},
   "repository": {
     "type": "git",
