@@ -1,27 +1,31 @@
 <html>
-	<head>
-		<title>really peer connection</title>
-		<link rel="stylesheet" href="./css/main.css">
-		<script language="javascript" type="text/javascript">
-			function gotoNextPage(){
-				var roomid = document.querySelector('input#room');
-				if(roomid.value === null || roomid.value === ''){
-					alert('roomid is null');
-				}else {
-					window.location.href="room.html?room="+ roomid.value;
-				}
+
+<head>
+	<title>really peer connection</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<script language="javascript" type="text/javascript">
+		function gotoNextPage() {
+			var roomid = document.querySelector('input#room');
+			if (roomid.value === null || roomid.value === '') {
+				alert('roomid is null');
+			} else {
+				window.location.href = "room.html?room=" + roomid.value;
 			}
-		</script>
-	</head>
-	<body>
-		<table align="center">
-			<tr><td><div>
-					<label>roomid:</label>
-					<input type="input" id="room">
-			</div></td></tr>
-			<tr><td><div>
-						<button id="join" onclick="gotoNextPage()">Join</button>
-			</div></td></tr>
-		</table>
-	</body>
+		}
+	</script>
+</head>
+
+<body>
+	<h1>房间列表</h1>
+	<ul>
+		<li>房间1</li>
+		<li>房间2</li>
+	</ul>
+	<h1>创建房间</h1>
+	<label>房间名称:</label>
+	<input type="input" id="roomName" placeholder="房间名称">
+	<input type="hidden" id="room" value="随机数">
+	<input type="button" value="创建" id="join" onclick="gotoNextPage()"></input>
+</body>
+
 </html>
